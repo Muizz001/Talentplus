@@ -16,7 +16,7 @@ To clone this repository, run the following command in the terminal:
 
 bashCopy code
 
-`git clone https://github.com/myusername/my-dockerized-react-app.git`
+`git clone https://github.com/Muizz001/Talentplus.git`
 
 
 ## Run the App
