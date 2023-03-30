@@ -28,11 +28,11 @@ const FAQ = [
 const FAQs = () => {
     return (
         <div className='w-full pt-[72px] pb-[32px] xl:pb-[83px] flex flex-col items-center relative'>
-            <div className='flex flex-col items-center w-[355px] '>
-                <div className='w-[381.5px] xl:text-left text-center xl:w-[827px]'>
+            <div className='flex flex-col items-center'>
+                <div className='max-w-[381.5px] xl:text-left text-center xl:h-[max-content] w-full xl:max-w-[827px]'>
                     <h2 className='font-[700] xl:text-[56px] text-[#000F24] xl:leading-[69px] leading-[36px] text-[24px] capitalize xl:text-center'>frequently asked questions</h2>
                 </div>
-                <div className='w-[332px] xl:w-[743px]  text-center mt-[4px] xl:mt-[8px]'>
+                <div className='max-w-[332px] w-full xl:max-w-[743px] text-center mt-[4px] xl:mt-[8px]'>
                     <p className='capitalize font-[500] text-[8px] xl:text-[16px] xl:leading-[28px] text-[#A2A2A2] leading-[15px]'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                 </div>
             </div>

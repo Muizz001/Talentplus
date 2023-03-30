@@ -34,13 +34,13 @@ const WhatWeOffer = () => {
         <div className='w-full flex justify-center pt-[40px] relative'>
             <div className='w-full flex flex-col lg:flex-row xl:px-[9%] lg:px-[40px] px-[20px] items-center xl:gap-[4%] xl:justify-center'>
                 <div className='xl:min-w-[50%] w-full xl:max-w-[694px] mt-[40px] flex flex-col xl:items-start items-center'>
-                    <div className='w-[381.5px] xl:text-left text-center h-[72px] xl:h-[max-content] xl:w-full'>
+                    <div className='max-w-[381.5px] xl:text-left text-center xl:h-[max-content] xl:max-w-[694px] w-full'>
                         <h2 className='font-[700] lg:text-[36px] xl:text-[56px] text-[#000F24] lg:leading-[70px] leading-[36px] text-[24px] capitalize'>this is why we are best from others</h2>
                     </div>
-                    <div className='w-[332px] xl:w-[90%] xl:h-[max-content] xl:text-left text-center h-[47px] mt-[8px] mb-[24px] xl:mt-[16px]'>
+                    <div className='max-w-[332px] w-full xl:max-w-[604px] xl:w-[90%] xl:h-[max-content] xl:text-left text-center mt-[8px] mb-[24px] xl:mt-[16px]'>
                         <p className='capitalize font-[500] text-[8px] xl:text-[16px] xl:leading-[28px] text-[#A2A2A2] leading-[15px]'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                     </div>
-                    <img src={offers} alt="" className='w-[390px] h-[260px] xl:w-full xl:h-auto' />
+                    <img src={offers} alt="" className=' w-full xl:h-auto max-w-[390px] xl:max-w-[none]' />
                 </div>
                 <div className='mt-[32px] xl:mt-[139px] xl:min-w-[50%] max-w-[396px] xl:max-w-[638px] w-full flex flex-wrap gap-[8px] xl:gap-[24px] justify-center'>
                     {ourOffers.map((offer, i) => (

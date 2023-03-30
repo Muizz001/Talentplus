@@ -39,22 +39,22 @@ const Testimonials = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true
+        autoplay: true,
     }
     return (
         <div className='w-full xl:pt-[80px] pt-[32px] flex flex-col items-center pb-[90px]'>
-            <div className='flex flex-col items-center w-[355px] '>
-                <div className='w-[381.5px] xl:text-left text-center h-[72px] xl:h-[max-content] xl:w-[827px]'>
+            <div className='flex flex-col items-center'>
+                <div className='max-w-[381.5px] xl:text-left text-center xl:h-[max-content] w-full xl:max-w-[827px]'>
                     <h2 className='font-[700] lg:text-[36px] xl:text-[56px] text-[#000F24] xl:leading-[69px] leading-[36px] text-[24px] capitalize xl:text-center'>what our clients are saying</h2>
                 </div>
-                <div className='w-[332px] xl:w-[743px] xl:h-[max-content] text-center h-[48px] mt-[4px] xl:mt-[8px]'>
+                <div className='max-w-[332px] w-full xl:max-w-[743px] xl:h-[max-content] text-center h-[48px] mt-[4px] xl:mt-[8px]'>
                     <p className='capitalize font-[500] text-[8px] xl:text-[16px] xl:leading-[28px] text-[#A2A2A2] leading-[15px]'>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
                 </div>
             </div>
             <Slider {...settings} className='xl:mt-[24px] mt-[32px] w-full flex gap-[8px] xl:gap-[24px] justify-center '>
                 {
                     coursesArray.map((course, i) => (
-                        <div className='w-[332px!important] xl:w-[603px!important] xl:h-[296px] h-[201px]  bg-white xl:px-[24px] xl:pt-[40px] px-[16px] flex flex-col pt-[24px] rounded-2xl xl:rounded-3xl' key={i}>
+                        <div className=' w-full max-w-[332px!important] xl:max-w-[603px!important] xl:h-[296px] h-[201px]  bg-white xl:px-[24px] xl:pt-[40px] px-[16px] flex flex-col pt-[24px] rounded-2xl xl:rounded-3xl' key={i}>
                             <p className='font-[500] text-[10px] leading-[14px] xl:text-[14px] xl:leading-[26px] text-[#A2A2A2] capitalize'>high-defination video is video of higher resolution and quality than standard definition.high-defination video is video of higher resolution and quality than standard definition.high-defination video is video of higher resolution and quality than standard definition.high-defination video is video of higher resolution and quality than standard definition. </p>
                             <div className='mt-[16px] xl:mt-[20px] flex w-full items-center xl:h-[48px] xl:gap-[8px] gap-[2px] h-[24px]'>
                                 <span className='flex items-center h-full'>

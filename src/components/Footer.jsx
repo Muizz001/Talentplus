@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className='flex flex-col gap-[24px] xl:gap-[26px]'>
                     <img src={logo} alt="TechTime" className='w-[101px] xl:w-[130px]' />
                     <p className='text-white w-[261px] xl:w-[281px] font-[400] text-[16px]  leading-[22px] capitalize'>reach out to us on any of our social media networks</p>
-                    <div className='flex gap-[52px] h-[32px]'>
+                    <div className='flex gap-[8%] h-[32px] w-full max-w-[281px] '>
                         {socials.map((social, i) => (
                             <img src={social.svg} className="h-full" key={i} />
                         ))}

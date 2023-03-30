@@ -13,7 +13,7 @@ li.slick-active button::before {
   margin-top: 40px;
 }
 
-.slick-slide .slick-initialized {
-  display: flex;
-  justify-content: center;
+.slick-slide {
+  display: grid !important;
+  place-items: center;
 }
